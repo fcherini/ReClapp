@@ -1,0 +1,84 @@
+body {
+  background: #fdfbf9;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+
+a {
+  color: #84a59d;
+}
+
+.introduction {
+  margin-top: -30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-size: 16px;
+  text-align: center;
+}
+
+.title {
+  font-size: 64px;
+  text-align: center;
+  z-index: 10;
+}
+.title::after {
+  content: "👏";
+  position: relative;
+  left: -20px;
+  z-index: 0;
+}
+
+.container {
+  padding: 5vh;
+  max-height: 82vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.other__content {
+  padding: 0 10vh;
+  flex: 1;
+  max-height: 90vh;
+  overflow: scroll;
+}
+
+.cards__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f7ede2;
+  padding: 32px 48px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 32px;
+}
+
+.two {
+  background: #ffffff;
+}
+
+.three {
+  background: rgba(132, 165, 157, 0.21);
+}
+
+.card__title {
+  font-weight: 700;
+  color: #84a59d;
+}
+
+.extra__info {
+  margin-top: 30px;
+  text-align: center;
+}
